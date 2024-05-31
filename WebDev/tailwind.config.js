@@ -4,7 +4,10 @@ module.exports = {
   theme: {
     colors:{
       'title': '#204734',
-      'hover': '#e16a3f'
+      'hover': '#e16a3f',
+      'detail': '#ffc6cc',
+      "background-color": "#ffebcd",
+      "active": "",
     }
   },
   plugins: [],
