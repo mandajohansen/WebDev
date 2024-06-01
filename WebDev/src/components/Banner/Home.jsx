@@ -16,7 +16,7 @@ const Home = () => {
     return (
         <section 
         id="home"
-        className='w-full pt-8 pb-20 flex items-center'>
+        className='w-full pt-8 pb-20 flex items-center border-b-[1px] border-b-detail'>
             <div className="w-1/2 flex flex-col gap-20">
                 <div className="flex flex-col gap-3">
                     <h4 className="text-lg font-normal">Hello in my World</h4>
@@ -29,7 +29,7 @@ const Home = () => {
                             {/* a */} <span>{text}</span>
                             <Cursor
                             cursorStyle="|"
-                            cursorColor="detail"
+                            cursorColor="#ffc6cc"
                             />
                         </h2>
                         <p className="text-base font-bodyFont leading-6 tracking-wide">
