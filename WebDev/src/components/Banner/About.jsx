@@ -16,11 +16,11 @@ const About = () => {
   return (
     <section
       id="about"
-      className="w-full h-[809px] flex pb-20 py-20 font-titleFont border-b-[1px] border-b-detail relative"
+      className="w-full h-[809px] flex pb-20 py-20 border-b-[1px] border-b-detail relative"
     >
       <div className="w-1/2 flex justify-center relative">
         <LoadScript googleMapsApiKey={import.meta.env.VITE_GOOGLE_MAPS_API_KEY}>
-        <div className="absolute left-10 top-4 w-[96%] h-[405px] bg-gradient-to-r from-title via-hover to-detail flex"></div>
+        <div className="absolute left-10 top-4 w-[96%] h-[405px] bg-gradient-to-t from-title via-hover to-detail flex"></div>
           <div style={{ position: "relative", width: "90%", height: "90%"}}>
             <GoogleMap
               mapContainerStyle={containerStyle}
