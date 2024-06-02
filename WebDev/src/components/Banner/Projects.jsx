@@ -1,6 +1,5 @@
 import React from "react";
-import {spyRun} from "../../assets/index";
-import {aboutImg} from "../../assets/index";
+import { spyRun, aboutImg } from "../../assets/index";
 
 const Projects = () => {
     return (
@@ -11,7 +10,7 @@ const Projects = () => {
                 </div>
                 <p className="text-base font-bodyFont leading-6 tracking-wide pt-5 pb-14">
                     Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industrys standard dummy text
+                    industry. Lorem Ipsum has been the industry standard dummy text
                     ever since the 1500s, when an unknown printer took a galley of type
                     and scrambled it to make a type specimen book. It has survived not
                     only five centuries, but also the leap into electronic typesetting,
@@ -20,65 +19,61 @@ const Projects = () => {
                     more recently with desktop publishing software like Aldus PageMaker
                     including versions of Lorem Ipsum.
                 </p>
-            <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
-                <div 
-                style={{backgroundImage: `url(${spyRun})`}} 
-                className="shadown-lg shadow-detail group container rounded-md flex justify-center items-center mx-auto content-div">
-                    
-                    {}
-                    <div className="opacity-0 group-hover:opacity-100">
-                        <span className="text-2xl font-bold text-black tracking-wider"> 
-                            SpyRun
-                        </span>
-                        <div className="pt-8 text-center"> 
-                            <a href="/">
-                                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
-                                    See more
-                                </button>
-                            </a>
-                       </div>
+                <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+                    <div 
+                    style={{backgroundImage: `url(${spyRun})`}} 
+                    className="shadow-lg shadow-detail group container rounded-md flex justify-center items-center mx-auto content-div">
+                        <div className="opacity-0 group-hover:opacity-100">
+                            <span className="text-2xl font-bold text-black tracking-wider"> 
+                                SpyRun
+                            </span>
+                            <div className="pt-8 text-center"> 
+                                <a href="/See more">
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
+                                        See more
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                </div>
 
-                <div 
-                style={{backgroundImage: `url(${aboutImg})`}} 
-                className="shadown-lg shadow-detail group container rounded-md flex justify-center items-center mx-auto content-div">
-                    
-                    <div className="opacity-0 group-hover:opacity-100">
-                        <span className="text-2xl font-bold text-black tracking-wider"> 
-                            Amandas fonologiske barn
-                        </span>
-                        <div className="pt-8 text-center"> 
-                            <a href="/">
-                                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
-                                    See more
-                                </button>
-                            </a>
-                       </div>
+                    <div 
+                    style={{backgroundImage: `url(${aboutImg})`}} 
+                    className="shadow-lg shadow-detail group container rounded-md flex justify-center items-center mx-auto content-div">
+                        <div className="opacity-0 group-hover:opacity-100">
+                            <span className="text-2xl font-bold text-black tracking-wider"> 
+                                Amandas fonologiske barn
+                            </span>
+                            <div className="pt-8 text-center"> 
+                                <a href="/">
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
+                                        See more
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                </div>
 
-                <div 
-                style={{backgroundImage: `url(${spyRun})`}} 
-                className="shadown-lg shadow-detail group container rounded-md flex justify-center items-center mx-auto content-div">
-                    
-                    <div className="opacity-0 group-hover:opacity-100">
-                        <span className="text-2xl font-bold text-black tracking-wider"> 
-                            SpyRun 2
-                        </span>
-                        <div className="pt-8 text-center"> 
-                            <a href="/">
-                                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
-                                    See more
-                                </button>
-                            </a>
-                       </div>
+                    <div 
+                    style={{backgroundImage: `url(${spyRun})`}} 
+                    className="shadow-lg shadow-detail group container rounded-md flex justify-center items-center mx-auto content-div">
+                        <div className="opacity-0 group-hover:opacity-100">
+                            <span className="text-2xl font-bold text-black tracking-wider"> 
+                                SpyRun 2
+                            </span>
+                            <div className="pt-8 text-center"> 
+                                <a href="/">
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
+                                        See more
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                </div>
-                </div>
+            </div>
         </section>
     );
 };
 
-export default Projects
+export default Projects;
