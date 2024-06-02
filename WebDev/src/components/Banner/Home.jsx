@@ -51,10 +51,14 @@ const Home = () => {
                     </h2>
                     <div className="flex gap-4">
                         <span className="aboutIcons">
+                            <a href="https://www.linkedin.com/in/amandaljohansen" target="_blank" rel="noreferrer">
                             <FaLinkedin />
+                            </a>
                         </span>
                         <span className="aboutIcons">
+                            <a href="https://www.instagram.com/mandajohansen" target="_blank" rel="noreferrer">
                             <FaInstagram />
+                            </a>
                         </span>
                         <span className="aboutIcons">
                             <FaTwitter />
