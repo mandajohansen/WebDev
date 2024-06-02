@@ -16,7 +16,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="w-full h-[809px] flex pb-20 py-20 border-b-[1px] border-b-detail relative"
+      className="w-full h-[650px] flex pb-20 py-20 border-b-[1px] border-b-detail relative"
     >
       <div className="w-1/2 flex justify-center relative">
         <LoadScript googleMapsApiKey={import.meta.env.VITE_GOOGLE_MAPS_API_KEY}>

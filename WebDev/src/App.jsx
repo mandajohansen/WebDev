@@ -8,6 +8,7 @@ import Contact from './components/Banner/Contact';
 
 function App(){
   return (
+    
     <div>
       <Navbar />
       <Home />

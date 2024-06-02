@@ -3,7 +3,7 @@ import { spyRun, aboutImg } from "../../assets/index";
 
 const Projects = () => {
     return (
-        <section id="projects" className="w-full h-[809px] flex pb-20 py-20 sfont-titleFont border-b-[1px] border-b-detail relative">
+        <section id="projects" className="w-full h-[650px] flex pb-20 py-20 sfont-titleFont border-b-[1px] border-b-detail relative">
             <div className="w-full flex flex-col relative">
                 <div className="flex items-center">
                     <h3 className="text-5xl uppercase font-semibold text-title tracking-wide">Projects</h3>
@@ -29,7 +29,7 @@ const Projects = () => {
                             </span>
                             <div className="pt-8 text-center"> 
                                 <a href="/See more">
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 font-bold text-lg seeMore">
                                         See more
                                     </button>
                                 </a>
@@ -46,7 +46,7 @@ const Projects = () => {
                             </span>
                             <div className="pt-8 text-center"> 
                                 <a href="/">
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 font-bold text-lg seeMore">
                                         See more
                                     </button>
                                 </a>
@@ -63,7 +63,7 @@ const Projects = () => {
                             </span>
                             <div className="pt-8 text-center"> 
                                 <a href="/">
-                                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
+                                    <button className="text-center rounded-lg px-4 py-3 m-2 font-bold text-lg seeMore">
                                         See more
                                     </button>
                                 </a>

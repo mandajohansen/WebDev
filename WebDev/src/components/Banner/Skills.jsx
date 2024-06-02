@@ -7,12 +7,12 @@ const Skills = () => {
     const [skillsData, setSkillsData] = useState(false);
 
     return (
-        <section id="skills" className="w-full h-[809px] pb-20 border-b-[1px] border-b-detail">
+        <section id="skills" className="w-full pt-20 pb-20 border-b-[1px] border-b-detail">
             <div className="flex justify-center items-center text-center">
-                <h3 className="text-5xl pb-5 uppercase font-semibold text-title tracking-wide">Skills</h3>
+                <h3 className="text-5xl pb-16 uppercase font-semibold text-title tracking-wide">Experience and Skills</h3>
             </div>
             <div>
-                <ul className="w-full grid grid-cols-2 text-center">
+                <ul className="w-full grid grid-cols-2 text-center items-center gap-4">
                     <li
                         onClick={() => {
                             setExperienceData(true);

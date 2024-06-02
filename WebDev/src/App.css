@@ -22,6 +22,17 @@ body{
     items-center justify-center rounded-none shadow-xl hover:bg-opacity-50
     hover:-translate-y-1 transition-all hover:text-detail cursor-pointer duration-300 border-[1px] border-hover;
   }
+  .bgOpacity
+  {
+    @apply bg-black bg-opacity-70;
+  }
+
+  .seeMore
+  {
+    @apply w-32 h-12 bg-detail bg-opacity-60 text-title text-xl inline-flex
+    items-center justify-center rounded-md shadow-xl hover:bg-opacity-50
+    hover:-translate-y-1 transition-all hover:text-detail cursor-pointer duration-300;
+  }
 }
 
 .active{

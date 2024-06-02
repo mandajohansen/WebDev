@@ -1,62 +1,164 @@
 import React from 'react'
-import { SkillInfo } from './SkillInfo'
-import {motion} from 'framer-motion'
+import { motion } from 'framer-motion'
+import {figma} from '../../assets/index';
+import {blender} from '../../assets/index';
+import {adobeillustrator} from '../../assets/index';
+import {csharp} from '../../assets/index';
+import {css} from '../../assets/index';
+import {unity} from '../../assets/index';
+import { react } from '../../assets/index';
+import { photoshop } from '../../assets/index';
 
 export const AllSkills = () => {
   return (
-    <motion.div initial={{opacity:0}} animate={{opacity:1, transition:{duration:.5}}} className="w-full flex gap-20 mt-12">
-    <div className="w-1/2">
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { duration: .5 }}} className="w-full flex gap-20 mt-12">
+      <div className="w-1/2">
         <div className="py-12">
-            <p className="text-sm font-semibold text-title tracking-[4px]">2014-Now</p>
-            <h2 className="text-4xl font-bold">SKILLS</h2>
+          <p className="text-sm font-semibold text-title tracking-[4px]">2014-Now</p>
+          <h2 className="text-4xl font-bold">Design Skills</h2>
         </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-hover text-title flex flex-col gap-10">
-            <SkillInfo 
-                title="Bachelor of Science in Computer Science"
-                subtitle="University of the Philippines Los Baños"
-                description="I graduated with a degree in Computer Science from the University of the Philippines Los Baños. I learned the basics of programming, software engineering, and computer systems. I also learned how to analyze and solve problems using algorithms and data structures."
-                result="Graduated with a GPA of 1.75"
-            />
-            <SkillInfo 
-                title="Bachelor of Science in Computer Science"
-                subtitle="University of the Philippines Los Baños"
-                description="I graduated with a degree in Computer Science from the University of the Philippines Los Baños. I learned the basics of programming, software engineering, and computer systems. I also learned how to analyze and solve problems using algorithms and data structures."
-                result="Graduated with a GPA of 1.75"
-            />
-            <SkillInfo 
-                title="Bachelor of Science in Computer Science"
-                subtitle="University of the Philippines Los Baños"
-                description="I graduated with a degree in Computer Science from the University of the Philippines Los Baños. I learned the basics of programming, software engineering, and computer systems. I also learned how to analyze and solve problems using algorithms and data structures."
-                result="Graduated with a GPA of 1.75"
-            />
+        <div className="mt-5 w-full flex flex-col gap-6">
+          <div>
+            <div className='overflow-x-hidden'>
+            <img className='w-[45px] h-[45px]'
+                src={photoshop} alt="photoshop" />
+              <p className='text-sm uppercase font-medium'>Photoshop</p>
+              <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-4'>
+                <motion.span
+                  initial={{ x: "-100%", opacity: 0 }} 
+                  animate={{ x: 0, opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 0.5 }}
+                  className='w-[80%] h-full bg-gradient-to-r from-title via-hover to-detail rounded-md relative'>
+                  <span className='absolute -top-9 right-0'>80%</span>
+                </motion.span>
+              </span>
+            </div>
+          </div>
+          <div>
+            <div className='overflow-x-hidden'>
+            <img className='w-[40px] h-[45px]'
+                src={blender} alt="blender" />
+              <p className='text-sm uppercase font-medium'>Blender</p>
+              <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-4'>
+                <motion.span
+                  initial={{ x: "-100%", opacity: 0 }} 
+                  animate={{ x: 0, opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 0.5 }}
+                  className='w-[85%] h-full bg-gradient-to-r from-title via-hover to-detail rounded-md relative'>
+                  <span className='absolute -top-9 right-0'>85%</span>
+                </motion.span>
+              </span>
+            </div>
+          </div>
+          <div>
+            <div className='overflow-x-hidden'>
+            <img className='w-[30px] h-[45px]'
+                src={figma} alt="figma" />
+              <p className='text-sm uppercase font-medium'>Figma</p>
+              <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-4'>
+                <motion.span
+                  initial={{ x: "-100%", opacity: 0 }} 
+                  animate={{ x: 0, opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 0.5 }}
+                  className='w-[90%] h-full bg-gradient-to-r from-title via-hover to-detail rounded-md relative'>
+                  <span className='absolute -top-9 right-0'>90%</span>
+                </motion.span>
+              </span>
+            </div>
+          </div>
+          <div>
+            <div className='overflow-x-hidden'>
+            <img className='w-[45px] h-[45px]'
+                src={adobeillustrator} alt="adobeillustrator" />
+              <p className='text-sm uppercase font-medium'>Adobe Illustrator</p>
+              <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-4'>
+                <motion.span
+                  initial={{ x: "-100%", opacity: 0 }} 
+                  animate={{ x: 0, opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 0.5 }}
+                  className='w-[70%] h-full bg-gradient-to-r from-title via-hover to-detail rounded-md relative'>
+                  <span className='absolute -top-9 right-0'>70%</span>
+                </motion.span>
+              </span>
+            </div>
+          </div>
         </div>
-    </div>
-    <div className="w-1/2">
+      </div>
+
+
+
+      <div className="w-1/2">
         <div className="py-12">
-            <p className="text-sm font-semibold text-title tracking-[4px]">2014-Now</p>
-            <h2 className="text-4xl font-bold">Job History</h2>
+          <p className="text-sm font-semibold text-title tracking-[4px]">2014-Now</p>
+          <h2 className="text-4xl font-bold">Development Skills</h2>
         </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-hover text-title flex flex-col gap-10">
-            <SkillInfo 
-                title="Software Developer"
-                subtitle="Tech Company"
-                description="Worked as a software developer at a tech company where I was responsible for developing and maintaining web applications."
-                result="Promoted to Senior Developer"
-            />
-            <SkillInfo 
-                title="Software Developer"
-                subtitle="Tech Company"
-                description="Worked as a software developer at a tech company where I was responsible for developing and maintaining web applications."
-                result="Promoted to Senior Developer"
-            />
-            <SkillInfo 
-                title="Software Developer"
-                subtitle="Tech Company"
-                description="Worked as a software developer at a tech company where I was responsible for developing and maintaining web applications."
-                result="Promoted to Senior Developer"
-            />
+        <div className="mt-5 w-full flex flex-col gap-6">
+          <div>
+            <div className='overflow-x-hidden'>
+            <img className='w-[45px] h-[45px]'
+                src={react} alt="react" />
+              <p className='text-sm uppercase font-medium'>React.js</p>
+              <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-4'>
+                <motion.span
+                  initial={{ x: "-100%", opacity: 0 }} 
+                  animate={{ x: 0, opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 0.5 }}
+                  className='w-[60%] h-full bg-gradient-to-r from-title via-hover to-detail rounded-md relative'>
+                  <span className='absolute -top-9 right-0'>60%</span>
+                </motion.span>
+              </span>
+            </div>
+          </div>
+          <div>
+            <div className='overflow-x-hidden'>
+            <img className='w-[45px] h-[45px]'
+                src={csharp} alt="csharp" />
+              <p className='text-sm uppercase font-medium'>C#</p>
+              <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-4'>
+                <motion.span
+                  initial={{ x: "-100%", opacity: 0 }} 
+                  animate={{ x: 0, opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 0.5 }}
+                  className='w-[90%] h-full bg-gradient-to-r from-title via-hover to-detail rounded-md relative'>
+                  <span className='absolute -top-9 right-0'>90%</span>
+                </motion.span>
+              </span>
+            </div>
+          </div>
+          <div>
+            <div className='overflow-x-hidden'>
+            <img className='w-[45px] h-[45px]'
+                src={unity} alt="unity" />
+              <p className='text-sm uppercase font-medium'>Unity</p>
+              <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-4'>
+                <motion.span
+                  initial={{ x: "-100%", opacity: 0 }} 
+                  animate={{ x: 0, opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 0.5 }}
+                  className='w-[100%] h-full bg-gradient-to-r from-title via-hover to-detail rounded-md relative'>
+                  <span className='absolute -top-9 right-0'>100%</span>
+                </motion.span>
+              </span>
+            </div>
+          </div>
+          <div>
+            <div className='overflow-x-hidden'>
+            <img className='w-[45px] h-[45px]'
+                src={css} alt="css" />
+              <p className='text-sm uppercase font-medium'>CSS</p>
+              <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-4'>
+                <motion.span
+                  initial={{ x: "-100%", opacity: 0 }} 
+                  animate={{ x: 0, opacity: 1 }}
+                  transition={{ duration: 0.5, delay: 0.5 }}
+                  className='w-[80%] h-full bg-gradient-to-r from-title via-hover to-detail rounded-md relative'>
+                  <span className='absolute -top-9 right-0'>80%</span>
+                </motion.span>
+              </span>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
     </motion.div>
   )
 }
