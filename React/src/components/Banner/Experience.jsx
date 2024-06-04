@@ -19,7 +19,7 @@ export const Experience = () => {
         // Skriver det i consollen
         console.log("response", response.data);
         // Giver variablen education værdien af den data vi har hentet via setEducation
-        setEducation(response.data.higher_education);
+        setEducation(response.data.education);
         setJobs(response.data.jobs);
       } catch (error) {
         // Hvis noget går galt skriver vi det og giver education en fejl-meddelelse

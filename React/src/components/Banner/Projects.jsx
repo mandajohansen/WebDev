@@ -24,7 +24,7 @@ const Projects = () => {
                     style={{backgroundImage: `url(${spyRun})`}} 
                     className="shadow-lg shadow-detail group container rounded-md flex justify-center items-center mx-auto content-div">
                         <div className="opacity-0 group-hover:opacity-100">
-                            <span className="text-2xl font-bold text-black tracking-wider"> 
+                            <span className="text-5xl font-bold text-background-color tracking-wider"> 
                                 SpyRun
                             </span>
                             <div className="pt-8 text-center"> 
@@ -41,8 +41,8 @@ const Projects = () => {
                     style={{backgroundImage: `url(${pandasLege})`}} 
                     className="shadow-lg shadow-detail group container rounded-md flex justify-center items-center mx-auto content-div">
                         <div className="opacity-0 group-hover:opacity-100">
-                            <span className="text-2xl font-bold text-black tracking-wider"> 
-                                Pandas Fonologiske Lege
+                            <span className="text-4xl font-bold text-background-color tracking-wider"> 
+                                Pandas <br></br>Fonologiske Lege
                             </span>
                             <div className="pt-8 text-center"> 
                                 <a href="/Pandas">
