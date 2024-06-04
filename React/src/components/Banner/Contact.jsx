@@ -1,12 +1,14 @@
 import React from "react";
-import { HiMail } from "react-icons/hi";
+import { TfiEmail } from "react-icons/tfi";
+
 
 const Contact = () => {
     return (
         <section id="contact" className="w-full py-20 border-b-[1px] border-b-detail">
             <div className="flex items-center justify-center text-center pb-5 gap-4">
+            <TfiEmail className="text-6xl text-hover pt-2" />
                 <h3 className="text-5xl uppercase font-semibold text-title">Contact me</h3>
-                <HiMail className="text-7xl text-title pt-2" />
+                <TfiEmail className="text-6xl text-hover pt-2" />
             </div>
             <div className="w-full">
                 <div className="w-full h-auto flex justify-between">

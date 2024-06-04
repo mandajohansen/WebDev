@@ -1,12 +1,15 @@
 import React from "react";
 import { spyRun, pandasLege} from "../../assets/index";
+import { TfiFolder } from "react-icons/tfi";
+
 
 const Projects = () => {
     return (
         <section id="projects" className="w-full h-[650px] flex pb-20 py-20 sfont-titleFont border-b-[1px] border-b-detail relative">
             <div className="w-full flex flex-col relative">
-                <div className="flex items-center">
+                <div className="flex items-center gap-4">
                     <h3 className="text-5xl uppercase font-semibold text-title tracking-wide">Projects</h3>
+                    <TfiFolder className="text-5xl text-hover" />
                 </div>
                 <p className="text-base font-bodyFont leading-6 tracking-wide pt-5 pb-14">
                     Lorem Ipsum is simply dummy text of the printing and typesetting

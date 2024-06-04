@@ -1,6 +1,8 @@
 import React from "react";
 import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
 import { HiCode } from "react-icons/hi";
+import { HiOutlineIdentification } from "react-icons/hi";
+
 
 const containerStyle = {
   width: "100%",
@@ -33,11 +35,9 @@ const About = () => {
         </LoadScript>
       </div>
       <div className="w-1/2 flex flex-col pl-10 relative">
-        <div className="flex items-center">
-            <h3 className="text-5xl uppercase font-semibold text-title tracking-wide">About</h3>
-                <div className="flex gap-4 items-center ml-4">
-                    <HiCode className="text-6xl text-hover"/>
-                </div>
+        <div className="flex items-center gap-4">
+            <h3 className="text-5xl uppercase font-semibold text-title tracking-wide pb-2">About</h3>
+                    <HiOutlineIdentification className="text-6xl text-hover"/>
         </div>
         <p className="text-base font-bodyFont leading-6 tracking-wide pt-5">
           Lorem Ipsum is simply dummy text of the printing and typesetting

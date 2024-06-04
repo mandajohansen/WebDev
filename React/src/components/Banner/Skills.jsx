@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { Experience } from "./Experience";
 import { AllSkills } from "./AllSkills";
+import { TfiMedall } from "react-icons/tfi";
+
+
 
 const Skills = () => {
     const [experienceData, setExperienceData] = useState(true);
@@ -8,8 +11,9 @@ const Skills = () => {
 
     return (
         <section id="skills" className="w-full pt-20 pb-20 border-b-[1px] border-b-detail">
-            <div className="flex justify-center items-center text-center">
-                <h3 className="text-5xl pb-16 uppercase font-semibold text-title tracking-wide">Experiences and Skills</h3>
+            <div className="flex justify-center items-center text-center pb-16 gap-2 ">
+                <h3 className="text-5xl uppercase font-semibold text-title tracking-wide">Experiences and Skills</h3>
+                <TfiMedall className="text-5xl text-hover" />
             </div>
             <div>
                 <ul className="w-full grid grid-cols-2 text-center items-center gap-4">
