@@ -22,7 +22,7 @@ export const AllSkills = () => {
             <div className='overflow-x-hidden'>
             <img className='w-[45px] h-[45px]'
                 src={photoshop} alt="photoshop" />
-              <p className='text-sm uppercase font-medium'>Photoshop</p>
+              
               <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-4'>
                 <motion.span
                   initial={{ x: "-100%", opacity: 0 }} 
@@ -38,7 +38,7 @@ export const AllSkills = () => {
             <div className='overflow-x-hidden'>
             <img className='w-[40px] h-[45px]'
                 src={blender} alt="blender" />
-              <p className='text-sm uppercase font-medium'>Blender</p>
+              
               <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-4'>
                 <motion.span
                   initial={{ x: "-100%", opacity: 0 }} 
@@ -54,7 +54,7 @@ export const AllSkills = () => {
             <div className='overflow-x-hidden'>
             <img className='w-[30px] h-[45px]'
                 src={figma} alt="figma" />
-              <p className='text-sm uppercase font-medium'>Figma</p>
+              
               <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-4'>
                 <motion.span
                   initial={{ x: "-100%", opacity: 0 }} 
@@ -70,7 +70,7 @@ export const AllSkills = () => {
             <div className='overflow-x-hidden'>
             <img className='w-[45px] h-[45px]'
                 src={adobeillustrator} alt="adobeillustrator" />
-              <p className='text-sm uppercase font-medium'>Adobe Illustrator</p>
+              
               <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-4'>
                 <motion.span
                   initial={{ x: "-100%", opacity: 0 }} 
@@ -97,7 +97,7 @@ export const AllSkills = () => {
             <div className='overflow-x-hidden'>
             <img className='w-[45px] h-[45px]'
                 src={react} alt="react" />
-              <p className='text-sm uppercase font-medium'>React.js</p>
+              
               <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-4'>
                 <motion.span
                   initial={{ x: "-100%", opacity: 0 }} 
@@ -113,7 +113,7 @@ export const AllSkills = () => {
             <div className='overflow-x-hidden'>
             <img className='w-[45px] h-[45px]'
                 src={csharp} alt="csharp" />
-              <p className='text-sm uppercase font-medium'>C#</p>
+              
               <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-4'>
                 <motion.span
                   initial={{ x: "-100%", opacity: 0 }} 
@@ -129,7 +129,7 @@ export const AllSkills = () => {
             <div className='overflow-x-hidden'>
             <img className='w-[45px] h-[45px]'
                 src={unity} alt="unity" />
-              <p className='text-sm uppercase font-medium'>Unity</p>
+              
               <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-4'>
                 <motion.span
                   initial={{ x: "-100%", opacity: 0 }} 
@@ -145,7 +145,7 @@ export const AllSkills = () => {
             <div className='overflow-x-hidden'>
             <img className='w-[45px] h-[45px]'
                 src={css} alt="css" />
-              <p className='text-sm uppercase font-medium'>CSS</p>
+             
               <span className='w-full h-2 bgOpacity inline-flex rounded-md mt-4'>
                 <motion.span
                   initial={{ x: "-100%", opacity: 0 }} 
