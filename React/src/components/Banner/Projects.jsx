@@ -1,5 +1,5 @@
 import React from "react";
-import { spyRun, aboutImg } from "../../assets/index";
+import { spyRun, pandasLege} from "../../assets/index";
 
 const Projects = () => {
     return (
@@ -38,14 +38,14 @@ const Projects = () => {
                     </div>
 
                     <div 
-                    style={{backgroundImage: `url(${aboutImg})`}} 
+                    style={{backgroundImage: `url(${pandasLege})`}} 
                     className="shadow-lg shadow-detail group container rounded-md flex justify-center items-center mx-auto content-div">
                         <div className="opacity-0 group-hover:opacity-100">
                             <span className="text-2xl font-bold text-black tracking-wider"> 
-                                Amandas fonologiske barn
+                                Pandas Fonologiske Lege
                             </span>
                             <div className="pt-8 text-center"> 
-                                <a href="/">
+                                <a href="/Pandas">
                                     <button className="text-center rounded-lg px-4 py-3 m-2 font-bold text-lg seeMore">
                                         See more
                                     </button>
@@ -59,10 +59,10 @@ const Projects = () => {
                     className="shadow-lg shadow-detail group container rounded-md flex justify-center items-center mx-auto content-div">
                         <div className="opacity-0 group-hover:opacity-100">
                             <span className="text-2xl font-bold text-black tracking-wider"> 
-                                SpyRun 2
+                                Other
                             </span>
                             <div className="pt-8 text-center"> 
-                                <a href="/">
+                                <a href="/Other">
                                     <button className="text-center rounded-lg px-4 py-3 m-2 font-bold text-lg seeMore">
                                         See more
                                     </button>

@@ -1,5 +1,6 @@
 import aboutImg from "./images/aboutImg.png";
 import spyRun from "./images/spyRun.png";
+import pandasLege from "./images/pandasLege.png";
 import github from "./images/github.png";
 import figma from "./images/figma.png";
 import blender from "./images/blender.png";
@@ -11,7 +12,7 @@ import react from "./images/react.png";
 import photoshop from "./images/photoshop.png";
 
 
-export { aboutImg };
+export {aboutImg};
 export {spyRun};
 export {github};
 export {figma};
@@ -22,3 +23,4 @@ export {css};
 export {unity}; 
 export {react};
 export {photoshop};
+export {pandasLege};

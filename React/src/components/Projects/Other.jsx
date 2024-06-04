@@ -2,7 +2,7 @@ import React from "react";
 import NavbarProjects from "../NavbarProjects"
 import { spyRun } from "../../assets/index";
 
-const SpyRun = () => {
+const Other = () => {
     return (
         <div>
     <div className='w-full h-auto px-4'>
@@ -10,13 +10,13 @@ const SpyRun = () => {
         <div className='max-w-screen-2xl mx-auto px-16'>
         </div>
     </div>
-            <section id="spyrun" className="w-full pt-8 pb-20 border-b-[1px] border-b-detail flex">
+            <section id="other" className="w-full pt-8 pb-20 border-b-[1px] border-b-detail flex">
                 <div className="w-1/2 flex flex-col pl-10 relative">
                     <div className="flex items-center">
                         <h3 className="text-5xl uppercase font-semibold text-title tracking-wide">Semester Project</h3>
                         <div className="flex gap-4 items-center ml-4"></div>
                     </div>
-                    <h2 className="text-2xl pt-2 font-semibold font-style: italic text-hover tracking-wide">SpyRun</h2>
+                    <h2 className="text-2xl pt-2 font-semibold font-style: italic text-hover tracking-wide">Other</h2>
                     <p className="text-base font-bodyFont leading-6 tracking-wide pt-5">
                         Lorem Ipsum is simply dummy text of the printing and typesetting
                         industry. Lorem Ipsum has been the industrys standard dummy text
@@ -43,4 +43,4 @@ const SpyRun = () => {
     );
 }
 
-export default SpyRun;
+export default Other;

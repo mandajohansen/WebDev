@@ -6,6 +6,7 @@ import About from './components/Banner/About';
 import Skills from './components/Banner/Skills';
 import Contact from './components/Banner/Contact';
 import Footer from './components/Banner/Footer';
+import { Route, Routes } from "react-router-dom";
 
 function App(){
   return (
