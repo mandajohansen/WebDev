@@ -28,7 +28,7 @@ const Projects = () => {
                                 SpyRun
                             </span>
                             <div className="pt-8 text-center"> 
-                                <a href="/See more">
+                                <a href="/SpyRun">
                                     <button className="text-center rounded-lg px-4 py-3 m-2 font-bold text-lg seeMore">
                                         See more
                                     </button>

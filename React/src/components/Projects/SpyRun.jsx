@@ -6,7 +6,11 @@ import { spyRun } from "../../assets/index";
 const SpyRun = () => {
     return (
         <div>
-            <Navbar />
+    <div className='w-full h-auto px-4'>
+         <Navbar />
+        <div className='max-w-screen-2xl mx-auto px-16'>
+        </div>
+    </div>
             <section id="spyrun" className="w-full pt-8 pb-20 border-b-[1px] border-b-detail flex">
                 <div className="w-1/2 flex flex-col pl-10 relative">
                     <div className="flex items-center">
