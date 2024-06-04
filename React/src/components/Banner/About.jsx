@@ -22,7 +22,7 @@ const About = () => {
     >
       <div className="w-1/2 flex justify-center relative">
         <LoadScript googleMapsApiKey={import.meta.env.VITE_GOOGLE_MAPS_API_KEY}>
-        <div className="absolute left-10 top-4 w-[96%] h-[405px] bg-gradient-to-t from-title via-hover to-detail flex"></div>
+        <div className="absolute left-10 top-4 w-[93%] h-[415px] bg-gradient-to-t from-title via-hover to-detail flex"></div>
           <div style={{ position: "relative", width: "90%", height: "90%"}}>
             <GoogleMap
               mapContainerStyle={containerStyle}
