@@ -24,7 +24,7 @@ body{
   }
   .bgOpacity
   {
-    @apply bg-black bg-opacity-70;
+    @apply bg-randomcolor bg-opacity-70;
   }
 
   .seeMore
@@ -32,6 +32,26 @@ body{
     @apply w-32 h-12 bg-detail bg-opacity-60 text-title text-xl inline-flex
     items-center justify-center rounded-md shadow-xl hover:bg-opacity-50
     hover:-translate-y-1 transition-all hover:text-detail cursor-pointer duration-300;
+  }
+
+  .bgOpacity2
+  {
+    @apply bg-randomcolor2 bg-opacity-60;
+  }
+  .contactInput
+  {
+    @apply w-full h-12 rounded-lg p-2 border-[1px]
+     border-detail bgOpacity2 text-title px-4 
+     active:outline-none focus-visible:outline-hover 
+     outline-none focus-visible:border-b-0 duration-300;
+  }
+
+  .contactTextArea
+  {
+    @apply w-full rounded-lg p-2 border-[1px]
+     border-detail bgOpacity2 text-title px-4 
+     active:outline-none focus-visible:outline-hover 
+     outline-none focus-visible:border-b-0 duration-300 resize-none;
   }
 }
 
