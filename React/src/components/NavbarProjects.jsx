@@ -11,7 +11,7 @@ const Navbar = () => {
             <h1 className='w-full text-3xl font-bold text-title '>
                 <a href="/"> Portfolio</a></h1>
             <ul className='flex text-title'>
-                <li className='p-4 hover:text-hover cursor-pointer'><HashLink smooth to="/#about">Home</HashLink></li>
+                <li className='p-4 hover:text-hover cursor-pointer'><HashLink smooth to="/#homet">Home</HashLink></li>
                 <li className='p-4 hover:text-hover cursor-pointer'><HashLink smooth to="/#about">About</HashLink></li>
                 <li className='p-4 hover:text-hover cursor-pointer'><HashLink smooth to="/#projects">Project</HashLink></li>
                 <li className='p-4 hover:text-hover cursor-pointer'><HashLink smooth to="/#skills">Skills</HashLink></li>
