@@ -3,8 +3,7 @@ import Navbar from "./components/Navbar";
 import Projects from './components/Banner/Projects';
 import Home from './components/Banner/Home';
 import About from './components/Banner/About';
-import Skills from './components/Banner/Skills';
-import Contact from './components/Banner/Contact';
+import Resume from './components/Banner/Resume';
 import Footer from './components/Banner/Footer';
 import { Route, Routes } from "react-router-dom";
 
@@ -17,8 +16,7 @@ function App(){
       <Home />
       <About />
       <Projects />
-      <Skills />
-      <Contact />
+      <Resume />
       <Footer />
      
     </div>

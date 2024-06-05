@@ -1,5 +1,5 @@
 import aboutImg from "./images/aboutImg.png";
-import spyRun from "./images/spyRun.png";
+import spyRun from "./images/SpyRun.png";
 import pandasLege from "./images/pandasLege.png";
 import ghost from "./images/ghost.png";
 import github from "./images/github.png";

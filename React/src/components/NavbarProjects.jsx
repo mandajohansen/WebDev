@@ -14,7 +14,7 @@ const Navbar = () => {
                 <li className='p-4 hover:text-hover cursor-pointer'><HashLink smooth to="/#homet">Home</HashLink></li>
                 <li className='p-4 hover:text-hover cursor-pointer'><HashLink smooth to="/#about">About</HashLink></li>
                 <li className='p-4 hover:text-hover cursor-pointer'><HashLink smooth to="/#projects">Project</HashLink></li>
-                <li className='p-4 hover:text-hover cursor-pointer'><HashLink smooth to="/#skills">Skills</HashLink></li>
+                <li className='p-4 hover:text-hover cursor-pointer'><HashLink smooth to="/#resume">Resume</HashLink></li>
                 <li className='p-4 hover:text-hover cursor-pointer'><HashLink smooth to="/#contact">Contact</HashLink></li>
             </ul>
         </div>

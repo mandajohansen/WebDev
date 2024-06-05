@@ -5,14 +5,14 @@ import { TfiMedall } from "react-icons/tfi";
 
 
 
-const Skills = () => {
+const Resume = () => {
     const [experienceData, setExperienceData] = useState(true);
     const [skillsData, setSkillsData] = useState(false);
 
     return (
-        <section id="skills" className="w-full pt-20 pb-20 border-b-[1px] border-b-detail">
+        <section id="resume" className="w-full pt-20 pb-20 border-b-[1px] border-b-detail">
             <div className="flex justify-center items-center text-center pb-16 gap-2 ">
-                <h3 className="text-5xl uppercase font-semibold text-title tracking-wide">Experiences and Skills</h3>
+                <h3 className="text-5xl uppercase font-semibold text-title tracking-wide">Resume</h3>
                 <TfiMedall className="text-5xl text-hover" />
             </div>
             <div>
@@ -43,5 +43,5 @@ const Skills = () => {
     );
 };
 
-export default Skills;
+export default Resume;
 
