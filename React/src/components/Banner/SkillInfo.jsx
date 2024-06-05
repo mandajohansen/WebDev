@@ -23,7 +23,7 @@ export const SkillInfo = ({ title, subtitle, description, result }) => {
 
         </div>
         <div>
-          <p className='text-base font-medium text-title group-hover:text-title duration-300'>
+          <p className='text-base -mt-4 font-medium text-title group-hover:text-title duration-300'>
             {description}</p>
         </div>
       </div>
