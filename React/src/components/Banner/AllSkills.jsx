@@ -14,7 +14,7 @@ export const AllSkills = () => {
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { duration: .5 }}} className="w-full flex gap-20 mt-12">
       <div className="w-1/2">
         <div className="py-12">
-          <p className="text-sm font-semibold text-title tracking-[4px]">2014-Now</p>
+          <p className="text-sm font-semibold text-title tracking-[4px]"></p>
           <h2 className="text-4xl font-bold">Design Skills</h2>
         </div>
         <div className="mt-5 w-full flex flex-col gap-6">
@@ -89,7 +89,7 @@ export const AllSkills = () => {
 
       <div className="w-1/2">
         <div className="py-12">
-          <p className="text-sm font-semibold text-title tracking-[4px]">2014-Now</p>
+          <p className="text-sm font-semibold text-title tracking-[4px]"></p>
           <h2 className="text-4xl font-bold">Development Skills</h2>
         </div>
         <div className="mt-5 w-full flex flex-col gap-6">

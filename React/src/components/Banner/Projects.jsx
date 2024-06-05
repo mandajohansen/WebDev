@@ -12,15 +12,17 @@ const Projects = () => {
                     <TfiFolder className="text-5xl text-hover" />
                 </div>
                 <p className="text-base font-bodyFont leading-6 tracking-wide pt-5 pb-14">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry standard dummy text
-                    ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book. It has survived not
-                    only five centuries, but also the leap into electronic typesetting,
-                    remaining essentially unchanged. It was popularised in the 1960s with
-                    the release of Letraset sheets containing Lorem Ipsum passages, and
-                    more recently with desktop publishing software like Aldus PageMaker
-                    including versions of Lorem Ipsum.
+                Through my study  there is heavy emphasis on creating project with a 
+                purpose and to get hands on experiences with the things that you 
+                learn throughout the education. With this structure we create a 
+                project each semester, which includes research on a topic, designing 
+                a digital solution, testing the product and evaluating it impact 
+                and intended purpose. Here I have three projects, that I have created:
+                <li>SpyRun</li>
+                <li>Pandas Fonologiske Lege</li>
+                <li>Digital Study Card</li>
+                
+
                 </p>
                 <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
                     <div 
@@ -61,8 +63,8 @@ const Projects = () => {
                     style={{backgroundImage: `url(${ghost})`}} 
                     className="shadow-lg shadow-detail group container rounded-md flex justify-center items-center mx-auto content-div">
                         <div className="opacity-0 group-hover:opacity-100">
-                            <span className="text-2xl font-bold text-black tracking-wider"> 
-                                Other
+                        <span className="text-4xl font-bold text-background-color tracking-wider"> 
+                                Digital <br></br>Study Card
                             </span>
                             <div className="pt-8 text-center"> 
                                 <a href="/Other">

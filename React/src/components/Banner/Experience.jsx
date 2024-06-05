@@ -64,7 +64,7 @@ export const Experience = () => {
       <div className="w-1/2">
         <div className="py-12">
           <p className="text-sm font-semibold text-title tracking-[4px]">
-            2014-Now
+            2018-Now
           </p>
           <h2 className="text-4xl font-bold text-title">Job History</h2>
         </div>

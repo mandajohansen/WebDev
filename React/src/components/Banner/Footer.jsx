@@ -8,7 +8,7 @@ const Footer = () => {
     <div>
     <div className='w-full pt-52 pb-36 h-auto border-t-[1px] text-title border-t-detail grid grid-cols-4 gap-20 border-b-[1px] border-b-detail'>
       <div className='w-full h-full flex flex-col'>
-        <div className='relative w-full h-full bg-gradient-to-r from-title via-hover to-detail rounded-full'>
+        <div className='relative w-full h-[70%] bg-gradient-to-r from-title via-hover to-detail rounded-full'>
         <img src={aboutImg} alt="aboutImg" className='w-full h-full object-cover' />
         </div>
         <div className="flex gap-5 pt-4">
@@ -30,7 +30,7 @@ const Footer = () => {
           </span>
         </div>
       </div>
-      <div className='w-full h-full '>
+      <div className='w-full h-full pt-12 '>
         <h3 className="text-2xl font-bold uppercase text-title tracking-wide">Quick Link</h3>
         <ul className='flex flex-col gap-2 font-semibold overflow-hidden py-6'>
           <li >
@@ -75,7 +75,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className='w-full h-full '>
+      <div className='w-full h-full pt-12 '>
         <h3 className="text-2xl font-bold uppercase text-title tracking-wide">Resources</h3>
         <ul className='flex flex-col gap-2 font-semibold overflow-hidden py-6'>
           <li>
@@ -110,7 +110,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div className='w-full h-full '>
+      <div className='w-full h-full pt-12 '>
         <h3 className="text-2xl font-bold uppercase text-title tracking-wide">Developers</h3>
         <ul className='flex flex-col gap-2 font-semibold overflow-hidden py-6'>
           <li>

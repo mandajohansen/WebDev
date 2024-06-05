@@ -36,19 +36,18 @@ const About = () => {
       </div>
       <div className="w-1/2 flex flex-col pl-10 relative">
         <div className="flex items-center gap-4">
-            <h3 className="text-5xl uppercase font-semibold text-title tracking-wide pb-2">About</h3>
+            <h3 className="text-5xl uppercase font-semibold text-title tracking-wide pb-2">About me</h3>
                     <HiOutlineIdentification className="text-6xl text-hover"/>
         </div>
         <p className="text-base font-bodyFont leading-6 tracking-wide pt-5">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industrys standard dummy text
-          ever since the 1500s, when an unknown printer took a galley of type
-          and scrambled it to make a type specimen book. It has survived not
-          only five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+        I am a 25 year old student currently enrolled in my 6th semester of the 
+        Bachelor's degree of Mediaology. Which is located at Aalborg University
+        in Copenhagen, which is highlighted with the red marker on the map 
+        to the left. Zooming out you can see where the location is in relation 
+        to other places in the world. Alongside my studies and work, I also 
+        take part in the social tutor program. I have done that for two years
+        now, and this year I am the tutor coordinator with one of my classmates. This position includes recruiting other tutors, being in charge of meetings to discuss social activities and to manage the finances we have available for events. I am also frequently a volunteer at other social activities at my study, this includes setting up for bigger events, stand in the bar and serv people and help cleaning after events.
+
         </p>
       </div>
     </section>

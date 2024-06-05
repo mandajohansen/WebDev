@@ -7,7 +7,7 @@ import {aboutImg} from "../../assets/index";
 
 const Home = () => {
     const [text] = useTypewriter({
-        words: ["girls.", "players.", "comedians."],
+        words: ["student.", "hard worker.", "team player."],
         loop: true,
         typeSpeed: 20,
         deleteSpeed: 50,
@@ -19,35 +19,34 @@ const Home = () => {
         className='w-full pt-8 pb-20 flex items-center border-b-[1px] border-b-detail'>
             <div className="w-1/2 flex flex-col gap-20">
                 <div className="flex flex-col gap-3">
-                    <h4 className="text-lg font-normal">Hello in my World</h4>
+                    <h4 className="text-lg font-normal">Welcome to my portfolio</h4>
                     <h1 className="text-6xl font-bold text-title">
-                        Hello, we are {" "}
-                            <span className="text-hover">Amanda and Mathilde,
+                        Hello, I'am {" "}
+                            <span className="text-hover">Amanda
                         </span>
                         </h1>
                         <h2 className="text-2xl font-bold">
-                            {/* a */} <span>{text}</span>
+                            a <span>{text}</span>
                             <Cursor
                             cursorStyle="|"
                             cursorColor="#ffc6cc"
                             />
                         </h2>
                         <p className="text-base font-bodyFont leading-6 tracking-wide">
-                        Lorem Ipsum is simply dummy text of the printing and 
-                        typesetting industry. Lorem Ipsum has been the industrys 
-                        standard dummy text ever since the 1500s, when an unknown 
-                        printer took a galley of type and scrambled it to make a 
-                        type specimen book. It has survived not only five centuries, 
-                        but also the leap into electronic typesetting, remaining 
-                        essentially unchanged. It was popularised in the 1960s with 
-                        the release of Letraset sheets containing Lorem Ipsum passages, 
-                        and more recently with desktop publishing software like Aldus 
-                        PageMaker including versions of Lorem Ipsum.
+                        This is my portfolio, where I will show you a bit about me, 
+                        my projects, skills and if you want to get in contact, you can 
+                        send me a mail through the contact form. This is my first time 
+                        making a website, which is done thorough my course called web 
+                        development. It has been an exciting and challenging task, and
+                        with not knowledge to begin with I feel were pleased with the 
+                        outcome and final product. I hope you will enjoy having a little
+                        look into who i am, the projects I have done and the skills and
+                        experience I have gained through my studies and work experience.
                         </p>
                 </div>  
                  <div>
                     <h2 className="text-base uppercase mb-4">
-                        Find us on social media
+                        Find me on social media
                     </h2>
                     <div className="flex gap-4">
                         <span className="aboutIcons">
@@ -71,12 +70,12 @@ const Home = () => {
             </div>  
 
               {/* Nu er det til billede siden*/}
-            <div className="w-1/2 flex justify-center items-center relative">
-                <img className="w-[500px] h-[400px] z-10 object-cover rounded-lg"
+            <div className="w-1/2 flex justify-center left-10 items-center relative">
+                <img className="w-[500px] h-[600px] pl-12 pb-16 z-10 object-cover rounded-lg"
                 src={aboutImg} 
                 alt="aboutImg"
                 />
-                <div className="absolute bottom-0 w-[450px] h-[450px] bg-gradient-to-r
+                <div className="absolute bottom-0 w-[550px] h-[550px] bg-gradient-to-r
                  from-title via-hover to-detail felx justify-center items-center rounded-full"></div>
             </div> 
         </section>

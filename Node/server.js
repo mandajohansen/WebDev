@@ -30,7 +30,7 @@ app.get("/api/education", async (req, res) => {
     const database = client.db("WebDevDB");
     const collection = database.collection("WebDevCollection");
 
-    const document = await collection.findOne({ id: "mathilde" });
+    const document = await collection.findOne({ id: "amanda" });
     console.log("document", document);
     if (document) {
       res.json(document);
