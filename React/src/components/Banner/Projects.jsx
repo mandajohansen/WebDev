@@ -1,5 +1,5 @@
 import React from "react";
-import { spyRun, pandasLege} from "../../assets/index";
+import { spyRun, pandasLege, ghost} from "../../assets/index";
 import { TfiFolder } from "react-icons/tfi";
 
 
@@ -58,7 +58,7 @@ const Projects = () => {
                     </div>
 
                     <div 
-                    style={{backgroundImage: `url(${spyRun})`}} 
+                    style={{backgroundImage: `url(${ghost})`}} 
                     className="shadow-lg shadow-detail group container rounded-md flex justify-center items-center mx-auto content-div">
                         <div className="opacity-0 group-hover:opacity-100">
                             <span className="text-2xl font-bold text-black tracking-wider"> 
