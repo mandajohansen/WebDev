@@ -1,11 +1,12 @@
 import React from 'react';
 import { aboutImg } from '../../assets/index';
 import { FaLinkedin, FaInstagram, FaTwitter, FaFacebook } from "react-icons/fa";
+import {Link} from "react-scroll";
 
 const Footer = () => {
   return (
     <div>
-    <div className='w-full py-20 h-auto border-t-[1px] text-title border-t-detail grid grid-cols-4 gap-20 border-b-[1px] border-b-detail'>
+    <div className='w-full pt-52 pb-36 h-auto border-t-[1px] text-title border-t-detail grid grid-cols-4 gap-20 border-b-[1px] border-b-detail'>
       <div className='w-full h-full flex flex-col'>
         <div className='relative w-full h-full bg-gradient-to-r from-title via-hover to-detail rounded-full'>
         <img src={aboutImg} alt="aboutImg" className='w-full h-full object-cover' />
@@ -32,35 +33,45 @@ const Footer = () => {
       <div className='w-full h-full '>
         <h3 className="text-2xl font-bold uppercase text-title tracking-wide">Quick Link</h3>
         <ul className='flex flex-col gap-2 font-semibold overflow-hidden py-6'>
-          <li>
+          <li >
+          <Link to="home" smooth duration={500} activeClass="active"spy={true}>
             <span className='w-full text-lg hover:text-hover duration-300 relative cursor-pointer group'>
               Home
               <span className='absolute h-[1px] w-full inline-flex bg-detail -bottom-1 left-0 -translate-x-full group-hover:translate-x-0 transition-transform duration-300'></span>
             </span>
+            </Link>
           </li>
           <li>
+          <Link to="about" smooth duration={500} activeClass="active"spy={true}>
             <span className='w-full text-lg hover:text-hover duration-300 relative cursor-pointer group'>
               About
               <span className='absolute h-[1px] w-full inline-flex bg-detail -bottom-1 left-0 -translate-x-full group-hover:translate-x-0 transition-transform duration-300'></span>
             </span>
+            </Link>
           </li>
           <li>
+          <Link to="skills" smooth duration={500} activeClass="active"spy={true}>
             <span className='w-full text-lg hover:text-hover duration-300 relative cursor-pointer group'>
-              Service
+              Skills
               <span className='absolute h-[1px] w-full inline-flex bg-detail -bottom-1 left-0 -translate-x-full group-hover:translate-x-0 transition-transform duration-300'></span>
             </span>
+            </Link>
           </li>
           <li>
+          <Link to="projects" smooth duration={500} activeClass="active"spy={true}>
             <span className='w-full text-lg hover:text-hover duration-300 relative cursor-pointer group'>
-              Portfolio
+              Projects
               <span className='absolute h-[1px] w-full inline-flex bg-detail -bottom-1 left-0 -translate-x-full group-hover:translate-x-0 transition-transform duration-300'></span>
             </span>
+            </Link>
           </li>
           <li>
+          <Link to="contact" smooth duration={500} activeClass="active"spy={true}>
             <span className='w-full text-lg hover:text-hover duration-300 relative cursor-pointer group'>
               Contact
               <span className='absolute h-[1px] w-full inline-flex bg-detail -bottom-1 left-0 -translate-x-full group-hover:translate-x-0 transition-transform duration-300'></span>
             </span>
+            </Link>
           </li>
         </ul>
       </div>
@@ -135,7 +146,7 @@ const Footer = () => {
         </ul>
       </div>
     </div>
-    <div className='text-center justify-center flex flex-col text-title font-semibold pt-5'>
+    <div className='text-center justify-center flex flex-col text-title font-semibold py-10'>
     <h1>Made by <span className="text-hover">Amanda and Mathilde</span></h1>
     <h2 className='text-detail'>© 2024 All rights reserved</h2>
 </div>
