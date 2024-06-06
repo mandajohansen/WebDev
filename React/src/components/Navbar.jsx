@@ -2,9 +2,6 @@ import React, {useState} from "react";
 import {Link} from "react-scroll";
 
 const Navbar = () => {
-    const [nav, setNav] = useState(false)
-
-    const handleNav = {} 
     return (
         <div className='flex sticky top-0 z-50 bg-background-color justify-between items-center font-titleFont border-b-[1px] border-b-detail'>
             <h1 className='w-full text-3xl font-bold text-title '>

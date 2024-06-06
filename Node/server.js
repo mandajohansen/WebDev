@@ -45,6 +45,10 @@ app.get("/api/education", async (req, res) => {
   }
 });
 
+
+
+
+
 app.listen(port, () => {
   /*   console.log("process.env.DB_PASSWORD", process.env.DB_PASSWORD); */
   console.log(`Server is running on http://localhost:${port}`);

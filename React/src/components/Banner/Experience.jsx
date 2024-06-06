@@ -8,6 +8,7 @@ export const Experience = () => {
   // Vi laver en state-variabel, der hedder education. Til at starte med har den ingen værdi
   const [education, setEducation] = useState();
   const [jobs, setJobs] = useState();
+  const [dataLoaded, setDataLoaded] = useState(false);
 
   // useEffect kører første gang denne del af coden bliver læst.
   useEffect(() => {
@@ -21,6 +22,7 @@ export const Experience = () => {
         // Giver variablen education værdien af den data vi har hentet via setEducation
         setEducation(response.data.education);
         setJobs(response.data.jobs);
+        setDataLoaded(true);
       } catch (error) {
         // Hvis noget går galt skriver vi det og giver education en fejl-meddelelse
         console.error("Error fetching data:", error);
@@ -32,59 +34,68 @@ export const Experience = () => {
   }, []);
 
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="w-full flex gap-20 mt-12"
-    >
-      <div className="w-1/2">
-        <div className="py-12">
-          <p className="text-sm font-semibold text-title tracking-[4px]">
-            2014-Now
-          </p>
-          <h2 className="text-4xl font-bold text-title">Education History</h2>
-        </div>
-        {/* Hvis education har en værdi, dvs. efter at useEffect og fetchData har kørt, så tegnes det følgende */}
-        {education && (
-          <div className="mt-5 w-full h-[1000px] border-l-[6px] border-title text-title flex flex-col gap-10">
-            {/* education er et array med 1 object. Der kunne fx være tre objecter. Vi looper igennem education og for hvert object laver vi SkillInfo med værdien fra det object vi er kommet til - hver gang kaldes det "edu" */}
-            {education.map((edu) => (
-              <>
-                <SkillInfo
-                  title={edu.title}
-                  subtitle={edu.subtitle}
-                  description={edu.description}
-                  result={edu.result}
-                />
-              </>
-            ))}
+    <>
+      {dataLoaded && ( // Hvis dataLoaded er true, dvs. at vi har hentet data, så tegnes det følgende
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1, transition: { duration: 0.5 } }}
+          className="w-full flex gap-20 mt-12"
+        >
+          <div className="w-1/2">
+            <div className="py-12">
+              <p className="text-sm font-semibold text-title tracking-[4px]">
+                2014-Now
+              </p>
+              <h2 className="text-4xl font-bold text-title">Education History</h2>
+            </div>
+            {/* Hvis education har en værdi, dvs. efter at useEffect og fetchData har kørt, så tegnes det følgende */}
+            {education && (
+              <div className="mt-5 w-full h-[1000px] border-l-[6px] border-title text-title flex flex-col gap-10">
+                {/* education er et array med 1 object. Der kunne fx være tre objecter. Vi looper igennem education og for hvert object laver vi SkillInfo med værdien fra det object vi er kommet til - hver gang kaldes det "edu" */}
+                {education.map((edu) => (
+                  <>
+                  <SkillInfo
+                    title={edu.title}
+                    subtitle={edu.subtitle}
+                    description={edu.description}
+                    result={edu.result}
+                  />
+                  </>
+                ))}
+              </div>
+            )}
           </div>
-        )}
-      </div>
-      <div className="w-1/2">
-        <div className="py-12">
-          <p className="text-sm font-semibold text-title tracking-[4px]">
-            2018-Now
-          </p>
-          <h2 className="text-4xl font-bold text-title">Job History</h2>
-        </div>
-        {/* Hvis education har en værdi, dvs. efter at useEffect og fetchData har kørt, så tegnes det følgende */}
-        {jobs && (
-        <div className="mt-5 w-full h-[1000px] border-l-[6px] border-title text-title flex flex-col gap-10">
-          {/* education er et array med 1 object. Der kunne fx være tre objecter. Vi looper igennem education og for hvert object laver vi SkillInfo med værdien fra det object vi er kommet til - hver gang kaldes det "edu" */}
-          {jobs.map((job) => (
-              <>
-                <SkillInfo
-                  title={job.title}
-                  subtitle={job.subtitle}
-                  description={job.description}
-                  result={job.result}
-                />
-              </>
-            ))}
+          <div className="w-1/2">
+            <div className="py-12">
+              <p className="text-sm font-semibold text-title tracking-[4px]">
+                2018-Now
+              </p>
+              <h2 className="text-4xl font-bold text-title">Job History</h2>
+            </div>
+            {/* Hvis education har en værdi, dvs. efter at useEffect og fetchData har kørt, så tegnes det følgende */}
+            {jobs && (
+              <div className="mt-5 w-full h-[1000px] border-l-[6px] border-title text-title flex flex-col gap-10">
+                {/* education er et array med 1 object. Der 
+                kunne fx være tre objecter. 
+                Vi looper igennem education og for hvert 
+                object laver vi SkillInfo med værdien fra 
+                det object vi er kommet til - hver gang kaldes 
+                det "edu" */}
+                {jobs.map((job) => (
+                  <>
+                  <SkillInfo
+                    title={job.title}
+                    subtitle={job.subtitle}
+                    description={job.description}
+                    result={job.result}
+                  />
+                  </>
+                ))}
+              </div>
+            )}
           </div>
-        )}
-      </div>
-    </motion.div>
+        </motion.div>
+      )}
+    </>
   );
 };
